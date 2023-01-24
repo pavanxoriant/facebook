@@ -39,10 +39,10 @@ public class FBtest1 extends FBbase {
 	 }
 	 @AfterMethod
 	 public void closebrowser() {
-		 Reporter.log("close browser",true);
+		 Reporter.log("closebrowser",true);
 	 }
 	 @AfterClass
 	 public void closeapplication() {
-		 Reporter.log("close application",true);
+		 Reporter.log("closeapplication",true);
 	 }
 }
