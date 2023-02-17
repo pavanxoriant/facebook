@@ -12,5 +12,6 @@ public static String getTD(int rowindex,int colindex) throws Throwable {
 	Sheet sh = WorkbookFactory.create(fis).getSheet("sheet1");
 	String data=sh.getRow(rowindex).getCell(colindex).getStringCellValue();
 	return data;
+	reporter.log("pavan",true);
 }
 }
