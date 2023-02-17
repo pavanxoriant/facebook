@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test1.Test">
+      <class name="FBtest123.Fbtest123">
         <methods>
-          <include name="verifyamazon"/>
+          <include name="verifytext"/>
+          <include name="closebrowser"/>
           <include name="openbrowser"/>
-          <include name="closeBrowser"/>
-          <include name="logintoapp"/>
-          <include name="logoutapp"/>
+          <include name="closeapplication"/>
+          <include name="openapplication"/>
         </methods>
-      </class> <!-- test1.Test -->
+      </class> <!-- FBtest123.Fbtest123 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
